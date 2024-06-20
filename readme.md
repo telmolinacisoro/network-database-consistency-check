@@ -16,4 +16,4 @@ This project is a tool for verifying network device configurations by comparing 
 3. SNMP tools (snmpwalk)
 4. SMTP server for sending emails
 
-Update the user, password, and database parameters in the getDataOpenDCIM function as well as the From and To addresses in sendEmail, and to run the script do *python3 sanity-check.py* in CLI.
+Update the user, password, and database parameters in the getDataOpenDCIM function as well as the From and To addresses in sendEmail, and to run the script do *python3 main.py* in CLI.
