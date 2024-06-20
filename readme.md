@@ -1,4 +1,4 @@
-# Network Device Configuration Verifier
+# Network Database Consistency Check
 
 This project is a tool for verifying network device configurations by comparing OpenDCIM database records with SQL query results and real-time SNMP data for switches in HPC clusters. The result is printed to stdout and can be sent as an email if necessary. Moreover, a number of files are created for matching to avoid having to use long loops, which are stored in the tmp folder. My recommendation is to use crontab for scheduling.
 
